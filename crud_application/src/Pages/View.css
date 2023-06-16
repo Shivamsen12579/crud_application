@@ -1,0 +1,42 @@
+.viewcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px solid black;
+  width: 45%;
+  margin-left: 32%;
+  margin-top:3%;
+}
+.viewh2 {
+  text-align: left;
+  margin: 12px 10px -29px 10px;
+}
+.viewp {
+  background-color: rgb(238, 233, 233);
+  font-size: 16px;
+  text-align: left;
+  padding: 12px 15px;
+  margin: 7px 14px 5px 9px;
+  /* border: 2px solid black; */
+  border-radius: 8px;
+  /* font-weight: 600; */
+}
+hr {
+  height: 1px;
+  background-color: black;
+}
+.viewbtn {
+  padding: 10px 20px;
+  margin: 5% 12% 5% 77%;
+  background-color: rgb(89 86 86);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.closeIcon {
+  position: relative;
+  bottom: 2px;
+  left: 92%;
+}
